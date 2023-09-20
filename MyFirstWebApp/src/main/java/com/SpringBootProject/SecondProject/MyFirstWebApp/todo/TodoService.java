@@ -14,13 +14,13 @@ public class TodoService {
 	private static List<Todo> todos = new ArrayList<>();
 	private static int todosCount = 0;
 	static {
-		todos.add(new Todo(++todosCount, "ahmad", "Learn Hibernate", 
+		todos.add(new Todo(++todosCount, "ahmad", "Learn Hibernate 1", 
 				LocalDate.now().plusYears(1), false));
 
-		todos.add(new Todo(++todosCount, "ahmad", "Learn mySQL", 
+		todos.add(new Todo(++todosCount, "ahmad", "Learn mySQL 1", 
 				LocalDate.now().plusYears(2), false));
 		
-		todos.add(new Todo(++todosCount, "ahmad", "Learn devOps", 
+		todos.add(new Todo(++todosCount, "ahmad", "Learn devOps 1", 
 				LocalDate.now().plusMonths(10), false));
 	}
 	
